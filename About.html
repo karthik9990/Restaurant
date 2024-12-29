@@ -11,101 +11,289 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Canadian Flames</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#menu">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Canadian Flames</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">About Us</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <img src="img/restaurant-interior.jpg" class="img-fluid rounded" alt="Restaurant Interior">
+            </div>
+            <div class="col-md-6">
+                <h3>Our Story</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut dignissim turpis. Suspendisse
+                    potenti. Mauris malesuada, magna ac fermentum congue, nisi ligula auctor eros, sit amet luctus risus
+                    felis eget felis.</p>
+                <p>Founded in 2024, My Restaurant has been dedicated to delivering an unforgettable dining experience
+                    with high-quality ingredients, a passion for innovation, and a commitment to customer
+                    satisfaction.</p>
+                <h3>Our Mission</h3>
+                <p>To provide an exceptional culinary journey that celebrates flavor, hospitality, and community. We
+                    strive to be a place where every meal is a memory.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Meet the Team Section -->
+<section id="team" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Meet Our Team</h2>
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <img src="img/gordon_ramsey.jpg" class="rounded-circle mb-3" alt="Chef" width="150">
+                <h5>Gordon Ramsey</h5>
+                <p>Executive Chef</p>
+                <p>"If you want to become a great chef, you have to work with great chefs.
+                    And that’s exactly what I did."</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <img src="img/Yannick-Alléno.jpg" class="rounded-circle mb-3" alt="Manager" width="150">
+                <h5>Yannick Alléno</h5>
+                <p>Executive Chef</p>
+                <p>"The future of cuisine lies in extraction—unlocking the true essence of flavors."</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <img src="img/Alain-Ducasse.jpg" class="rounded-circle mb-3" alt="Sommelier" width="150">
+                <h5>Alain Ducasse</h5>
+                <p>Executive Chef</p>
+                <p>"Cooking is the art of transformation. It’s about taking the best ingredients and elevating them
+                    to their full potential."</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <img src="img/Pierre-Gagnaire.jpg" class="rounded-circle mb-3" alt="Chef" width="150">
+                <h5>Pierre Gagnaire</h5>
+                <p>Executive Chef</p>
+                <p>"I want my cooking to evoke emotions. Each dish should tell a story."</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <img src="img/Martin-Berasategui.jpg" class="rounded-circle mb-3" alt="Manager" width="150">
+                <h5>Martin Berasategui</h5>
+                <p>Executive Chef</p>
+                <p>"A good chef doesn’t just cook food; they create experiences that linger in the soul."</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <img src="img/Enrico-Bartolini.jpg" class="rounded-circle mb-3" alt="Sommelier" width="150">
+                <h5>Enrico Bartolini</h5>
+                <p>Executive Chef</p>
+                <p>"A good chef doesn’t just cook food; they create experiences that linger in the soul."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+    <div class="container">
+        <p>&copy; 2024 Canadian Flames. All rights reserved.</p>
+        <p><a href="#" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Privacy Policy</a> | <a href="#"
+                                                                                                           data-bs-toggle="modal"
+                                                                                                           data-bs-target="#termsOfServiceModal">Terms
+            of Service</a></p>
+    </div>
+</footer>
+
+<!-- Privacy Policy Modal -->
+<div class="modal fade" id="privacyPolicyModal" tabindex="-1" aria-labelledby="privacyPolicyModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="privacyPolicyModalLabel">Privacy Policy</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Privacy Policy</h6>
+                <p><strong>Privacy Policy for Canadian Flames</strong></p>
+
+                <p>At Canadian Flames, we are committed to protecting your privacy and ensuring that your personal
+                    information is handled in a safe and responsible manner. This privacy policy outlines how we
+                    collect, use, and safeguard your personal data when you visit our restaurant, interact with our
+                    website, or use our services.</p>
+
+                <p><strong>1. Information We Collect</strong></p>
+                <p>We collect personal information in the following ways:</p>
+                <ul>
+                    <li><strong>Reservations:</strong> When you make a reservation with us, we may collect your name,
+                        phone number, email address, special requests, and payment information.
+                    </li>
+                    <li><strong>Website Visitors:</strong> If you interact with our website, we may collect your IP
+                        address, browser type, and browsing activities through cookies and other tracking technologies.
+                    </li>
+                    <li><strong>Event Sign-ups:</strong> If you sign up for special events, promotions, or newsletters,
+                        we may collect personal details such as your name, email, and preferences.
+                    </li>
+                    <li><strong>Customer Feedback:</strong> We may collect feedback through surveys or reviews to
+                        improve our services.
+                    </li>
                 </ul>
+
+                <p><strong>2. How We Use Your Information</strong></p>
+                <p>The information we collect is used for the following purposes:</p>
+                <ul>
+                    <li>To process reservations and confirm booking details.</li>
+                    <li>To send reservation confirmations, reminders, and updates.</li>
+                    <li>To personalize your experience by tailoring offers, promotions, and communications based on your
+                        preferences.
+                    </li>
+                    <li>To improve the quality of our services through feedback and customer reviews.</li>
+                    <li>To comply with legal obligations, such as tax and accounting requirements.</li>
+                </ul>
+
+                <p><strong>3. How We Protect Your Information</strong></p>
+                <p>We implement a variety of security measures to maintain the safety of your personal information,
+                    including encryption of payment data and restricted access to your data by authorized personnel
+                    only. We regularly update our security protocols to ensure that your information remains
+                    protected.</p>
+
+                <p><strong>4. Sharing Your Information</strong></p>
+                <p>We do not sell, trade, or otherwise transfer your personal information to outside parties except in
+                    the following circumstances:</p>
+                <ul>
+                    <li><strong>Service Providers:</strong> We may share information with third-party service providers
+                        who assist us in operating our business, such as payment processors, reservation systems, or
+                        marketing partners. These third parties are obligated to protect your information and use it
+                        only for the services they provide.
+                    </li>
+                    <li><strong>Legal Requirements:</strong> We may disclose your information if required by law or in
+                        response to valid legal processes, such as a subpoena or court order.
+                    </li>
+                </ul>
+
+                <p><strong>5. Cookies and Tracking Technologies</strong></p>
+                <p>Our website uses cookies to enhance your experience and gather anonymous data on website usage.
+                    Cookies are small files stored on your device that allow us to recognize your preferences and tailor
+                    content to your needs. You can choose to disable cookies through your browser settings, but this may
+                    affect your experience on our website.</p>
+
+                <p><strong>6. Your Rights</strong></p>
+                <p>You have the right to:</p>
+                <ul>
+                    <li>Access the personal data we hold about you.</li>
+                    <li>Request corrections or deletions of your personal information.</li>
+                    <li>Opt out of promotional communications at any time.</li>
+                </ul>
+                <p>To exercise any of these rights, please contact us at [contact information].</p>
+
+                <p><strong>7. Children's Privacy</strong></p>
+                <p>Our services are not intended for children under the age of 13, and we do not knowingly collect
+                    personal information from children. If we become aware that we have inadvertently collected
+                    information from a child, we will take steps to delete it.</p>
+
+                <p><strong>8. Changes to This Privacy Policy</strong></p>
+                <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an
+                    updated revision date. We encourage you to review this policy periodically to stay informed about
+                    how we are protecting your personal information.</p>
+
+                <p><strong>9. Contact Us</strong></p>
+                <p>If you have any questions or concerns about this privacy policy or how we handle your personal
+                    information, please contact us.</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
-    </nav>
+    </div>
+</div>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">About Us</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <img src="img/restaurant-interior.jpg" class="img-fluid rounded" alt="Restaurant Interior">
-                </div>
-                <div class="col-md-6">
-                    <h3>Our Story</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut dignissim turpis. Suspendisse potenti. Mauris malesuada, magna ac fermentum congue, nisi ligula auctor eros, sit amet luctus risus felis eget felis.</p>
-                    <p>Founded in 2024, My Restaurant has been dedicated to delivering an unforgettable dining experience with high-quality ingredients, a passion for innovation, and a commitment to customer satisfaction.</p>
-                    <h3>Our Mission</h3>
-                    <p>To provide an exceptional culinary journey that celebrates flavor, hospitality, and community. We strive to be a place where every meal is a memory.</p>
-                </div>
+<!-- Terms of Service Modal -->
+<div class="modal fade" id="termsOfServiceModal" tabindex="-1" aria-labelledby="termsOfServiceModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsOfServiceModalLabel">Terms of Service</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Terms of Service</h6>
+                <p><strong>Terms of Service for Canadian Flames</strong></p>
+
+                <p>Welcome to Canadian Flames. By accessing or using our services, including making reservations,
+                    attending events, or interacting with our website, you agree to comply with and be bound by the
+                    following terms and conditions. Please read these Terms of Service carefully before using our
+                    services.</p>
+
+                <p><strong>1. Reservations</strong></p>
+                <p>By making a reservation with us, you agree to provide accurate and complete information. We reserve
+                    the right to cancel or modify reservations at our discretion. Any cancellations or changes to
+                    reservations must be made in accordance with our cancellation policy.</p>
+
+                <p><strong>2. Payment</strong></p>
+                <p>All payments for reservations, events, or dining experiences must be made in accordance with our
+                    payment terms. We accept various payment methods, including credit cards and digital payments. Any
+                    additional charges, such as tips or service charges, will be specified at the time of your
+                    reservation or event booking.</p>
+
+                <p><strong>3. Customer Conduct</strong></p>
+                <p>We expect all guests to behave respectfully and follow our restaurant’s policies and guidelines.
+                    Inappropriate behavior, including harassment or disruptive conduct, may result in immediate removal
+                    from the premises without a refund.</p>
+
+                <p><strong>4. Intellectual Property</strong></p>
+                <p>All content on our website, menus, branding, and marketing materials are the intellectual property of
+                    [Restaurant Name]. You may not use, reproduce, or distribute any of this content without prior
+                    written consent from us.</p>
+
+                <p><strong>5. Event and Special Promotions</strong></p>
+                <p>For any events or special promotions hosted by [Restaurant Name], we reserve the right to modify,
+                    cancel, or reschedule the event. Tickets or reservations for these events are non-refundable unless
+                    otherwise specified. We are not responsible for any personal injury, loss, or damage that may occur
+                    during such events.</p>
+
+                <p><strong>6. Privacy and Data Usage</strong></p>
+                <p>We value your privacy and are committed to protecting your personal data. Please refer to our Privacy
+                    Policy for detailed information on how we collect, use, and safeguard your personal information.</p>
+
+                <p><strong>7. Liability</strong></p>
+                <p>[Restaurant Name] is not liable for any loss, damage, or injury arising from your use of our
+                    services, except as required by law. This includes, but is not limited to, food allergies,
+                    accidents, or any other incidents that may occur while on our premises.</p>
+
+                <p><strong>8. Amendments to Terms</strong></p>
+                <p>We reserve the right to update, amend, or change these Terms of Service at any time. Any changes will
+                    be posted on our website with an updated revision date. By continuing to use our services, you agree
+                    to be bound by the updated terms.</p>
+
+                <p><strong>9. Governing Law</strong></p>
+                <p>These Terms of Service are governed by the laws of the jurisdiction in which [Restaurant Name]
+                    operates. Any disputes arising from the use of our services will be resolved in accordance with the
+                    applicable laws of this jurisdiction.</p>
+
+                <p><strong>10. Contact Us</strong></p>
+                <p>If you have any questions or concerns about these Terms of Service, please contact us.</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- Meet the Team Section -->
-    <section id="team" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Meet Our Team</h2>
-            <div class="row">
-                <div class="col-md-4 text-center mb-4">
-                    <img src="img/gordon_ramsey.jpg" class="rounded-circle mb-3" alt="Chef" width="150">
-                    <h5>Gordon Ramsey</h5>
-                    <p>Executive Chef</p>
-                    <p>"If you want to become a great chef, you have to work with great chefs.
-                        And that’s exactly what I did."</p>
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <img src="img/Yannick-Alléno.jpg" class="rounded-circle mb-3" alt="Manager" width="150">
-                    <h5>Yannick Alléno</h5>
-                    <p>Executive Chef</p>
-                    <p>"The future of cuisine lies in extraction—unlocking the true essence of flavors."</p>
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <img src="img/Alain-Ducasse.jpg" class="rounded-circle mb-3" alt="Sommelier" width="150">
-                    <h5>Alain Ducasse</h5>
-                    <p>Executive Chef</p>
-                    <p>"Cooking is the art of transformation. It’s about taking the best ingredients and elevating them
-                        to their full potential."</p>
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <img src="img/Pierre-Gagnaire.jpg" class="rounded-circle mb-3" alt="Chef" width="150">
-                    <h5>Pierre Gagnaire</h5>
-                    <p>Executive Chef</p>
-                    <p>"I want my cooking to evoke emotions. Each dish should tell a story."</p>
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <img src="img/Martin-Berasategui.jpg" class="rounded-circle mb-3" alt="Manager" width="150">
-                    <h5>Martin Berasategui</h5>
-                    <p>Executive Chef</p>
-                    <p>"A good chef doesn’t just cook food; they create experiences that linger in the soul."</p>
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <img src="img/Enrico-Bartolini.jpg" class="rounded-circle mb-3" alt="Sommelier" width="150">
-                    <h5>Enrico Bartolini</h5>
-                    <p>Executive Chef</p>
-                    <p>"A good chef doesn’t just cook food; they create experiences that linger in the soul."</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container">
-            <p>&copy; 2024 My Restaurant. All rights reserved.</p>
-            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
